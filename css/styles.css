@@ -1,0 +1,59 @@
+:root{
+    --text-font-family: 'Roboto' ;
+    --link-active-color: #2196F3;
+    --heading-color: #ffffff;
+    --section-color:#212121;
+}
+
+h1,h2,h3 {
+    font-family: var(--text-font-family);
+}
+.primary-page {
+    font-family: var(--text-font-family);
+
+}
+.hero-heading .service-button {
+    color:var(--heading-color)
+}
+
+ul {
+    list-style-type: none;
+}
+.global-header .main-navigation.mailto {
+    color:var(--section-color);
+  }
+  .global-header .main-navigation.mailto:hover
+  .global-header .main-navigation.mailto:focus {
+    color:var(--link-active-color);
+  }
+.global-header .main-navigtion .mailto .phone-number a,
+.global-header .main-navigtion .mailto .phone-number a:visited
+
+.main-navigtion .mailto a.active {
+    color: var(--link-active-color);
+}
+
+
+
+.global-header {
+    background-color:#FFF
+}
+
+.hero-section {
+    background-color:#2F303A ;
+}
+.hero-heading{
+    color: #FFF;
+
+}
+.service-button {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: var(--text-font-family);
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+background-color: #2196F3;
+}
