@@ -20,7 +20,8 @@ ul {
     list-style-type: none;
 }
 .main-navigation {
-    color:var(--section-color);
+    color: #212121;
+  
   }
   .hero-section{
 width: 1200px;
@@ -63,23 +64,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     align-items: center;
     justify-content: center;
 }
-  .main-navigation.mailto:hover
-  .main-navigation.mailto:focus {
-    color:var(--link-active-color);
-  }
-
-.main-navigtion .mailto .phone-number a,
-.main-navigtion .mailto .phone-number a:visited
-
-.main-navigtion .mailto a.active {
-    color: var(--link-active-color);
-}
-.main-navigation ul{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 
 .global-header {
     background-color:#FFF
@@ -89,10 +73,22 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color:#2F303A ;
 }
 .hero-heading{
-    color: #FFF;
+display: flex;
+width: 696px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-size: 44px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 2.64px;
+text-transform: uppercase;
 }
 
-.main-navigtion { 
+.main-navigation { 
     display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,6 +97,11 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 .global-header{
     display: flex;
     justify-content: space-between
+}
+.main-navigation ul{
+    display: flex;
+    padding-inline-start: 0;
+    justify-content: space-between;
 }
 
 
