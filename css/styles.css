@@ -57,6 +57,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .section{
     display: flex;
+    justify-content: space-between;
 }
 .hero-section{
     display: flex;
@@ -87,21 +88,30 @@ line-height: 60px;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
+.global-header{
+    display: flex;
+    align-items:baseline;
+}
+.title{
+    align-items:baseline;
 
+}
 .main-navigation { 
     display: flex;
   flex-direction: column;
-  justify-content: space-between;
+justify-content: space-around;
 
 }
-.global-header{
-    display: flex;
-    justify-content: space-between
-}
+
 .main-navigation ul{
     display: flex;
-    padding-inline-start: 0;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items:baseline;
+    color: #212121;
+}
+.contacts{
+display: flex;
+justify-content: flex-end;
 }
 
 
