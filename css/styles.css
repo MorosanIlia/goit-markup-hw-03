@@ -4,14 +4,14 @@
     --heading-color: #ffffff;
     --section-color:#212121;
 }
+* {
+    box-sizing: border-box;
+  }
 
 h1,h2,h3 {
     font-family: var(--text-font-family);
 }
-.primary-page {
-    font-family: var(--text-font-family);
 
-}
 .hero-heading .service-button {
     color:var(--heading-color)
 }
@@ -19,18 +19,64 @@ h1,h2,h3 {
 ul {
     list-style-type: none;
 }
-.global-header .main-navigation.mailto {
+.main-navigation {
     color:var(--section-color);
   }
-  .global-header .main-navigation.mailto:hover
-  .global-header .main-navigation.mailto:focus {
+  .hero-section{
+width: 1200px;
+height: 600px;
+flex-shrink: 0;
+background: #2F303A;
+ }
+
+.primary-page {
+    font-family: var(--text-font-family);
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.service-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+.service-button{
+    background-color: #2196F3;
+    width: 200px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.section{
+    display: flex;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  .main-navigation.mailto:hover
+  .main-navigation.mailto:focus {
     color:var(--link-active-color);
   }
-.global-header .main-navigtion .mailto .phone-number a,
-.global-header .main-navigtion .mailto .phone-number a:visited
+
+.main-navigtion .mailto .phone-number a,
+.main-navigtion .mailto .phone-number a:visited
 
 .main-navigtion .mailto a.active {
     color: var(--link-active-color);
+}
+.main-navigation ul{
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -44,16 +90,17 @@ ul {
 }
 .hero-heading{
     color: #FFF;
+}
+
+.main-navigtion { 
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
-.service-button {
-    color: #FFF;
-text-align: center;
-font-size: 16px;
-font-family: var(--text-font-family);
-font-style: normal;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.96px;
-background-color: #2196F3;
+.global-header{
+    display: flex;
+    justify-content: space-between
 }
+
+
