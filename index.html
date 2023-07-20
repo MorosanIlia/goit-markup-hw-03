@@ -7,13 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+<link rel="stylesheet" href="./reset.css" />
 <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body class="primary-page">
     <header class="global-header">
-        <a href="index.html">
-        <h2 class="global-title">WebStudio</h2>
+        <a class="logo" href="index.html">
+            <span class="web">Web</span>Studio
+   </a>
         </a>
         <nav class="main-navigation">
             <ul>
@@ -22,9 +24,9 @@
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
-        <div class="contacts">
+        <div class="contacts-header">
         <a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="phone-number" href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        <span>+1 212-772-4150</span>
     </div>
     </header>
     <main>
@@ -93,11 +95,13 @@
         </section>
     </main>
     <footer class="footer">
-        <h2>WebStudio</h2>
-        <address>
-            <p>695 Park Ave, NY 10065, USA</p><br>
-            <a href="mailto:info@devstudi.com">info@devstudio.com</a><br>
-            <a href="tel:+1-212-772-4150">+1 212-772-4150</a>
+        <span class="web">Web</span>Studio
+        <address class="footer-adress">
+            <span>695 Park Ave, NY 10065, USA</span>
+            <div class="footer-contacts">
+            <span>info@devstudio.com</span>
+            <span>+1 212-772-4150</span>
+        </div>
         </address>
     </footer>
 </body>

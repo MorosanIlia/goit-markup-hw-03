@@ -60,19 +60,18 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     align-items: center;
     justify-content:center
 }
-.global-title {
-    width: 145px;
-}
-.global-title{
-    margin-left: 215px;
-color: #2196F3;
-font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
-}
+.logo {
+    text-decoration: none;
+    font-family: var(--logo-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.9075em;
+    letter-spacing: 0.03em;
+    color: #000;
+  }
+  .web {
+    color:#2196F3;;
+  }
 
 .hero-section{
     display: flex;
@@ -147,6 +146,7 @@ align-items:baseline;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 .container-team{
     display: flex;
@@ -160,4 +160,38 @@ align-items:baseline;
 height: 251px;
 background: #2F303A;
 }
-
+.footer-adress{
+    display: flex;
+width: 207px;
+height: 16px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.footer-adress{
+    color: #FFF;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+}
+.footer-contacts{
+    display: flex;
+width: 231px;
+height: 16px;
+flex-direction: column;
+flex-shrink: 0;
+}
+.footer-contacts{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.42px;
+}
+.footer-contacts{
+    opacity: 60;
+}
