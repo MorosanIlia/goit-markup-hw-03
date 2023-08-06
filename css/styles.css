@@ -88,7 +88,7 @@ letter-spacing: 0.42px;
 text-transform: uppercase;
 }
 .h3{
-    padding-top: 94px;
+    margin-top: 55px;
 }
 
 .text {
@@ -138,8 +138,7 @@ flex-shrink: 0;
 
 .global-header {
     background-color:#FFF
-    width: 1600px;
-    height: 80px;
+    height : 80px;
     flex-shrink: 0;
 }
 
@@ -147,7 +146,7 @@ flex-shrink: 0;
     background-color:#2F303A ;
 }
 .hero-section{
-        background:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),  url('./images/hero-image.png') ;
+        background:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),  url('/images/hero-image.png') ;
     }
     
 .hero-heading{
@@ -194,6 +193,24 @@ gap: 40px;
 .contacts-header{
     margin-left: 385px;
 }
+.section-description-icons{
+    display: flex;
+     justify-content: center;
+     margin-top: 119px;
+}
+.section-description-icons{
+height: 70px;
+width: 70px;
+flex-shrink: 0;
+}
+.section-description-icons{
+    width: 270px;
+height: 120px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F5F4FA;
+}
+
 
 
 .title-images {
@@ -216,14 +233,18 @@ letter-spacing: 1.08px;
 
 }
 .images{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
 }
 .images{
-    padding-top: 50px;
+    display: flex;
+    margin-left: 215px;
+    gap: 30px;
+    margin-bottom: 94px;
+    margin-top: 50px;
 }
+
 
 
 .section-team{
@@ -403,9 +424,11 @@ letter-spacing: 0.42px;
 }
 .icons-list{
     display: flex;
-    margin-top: 28px;
     gap: 10px;
     justify-content: center;
+}
+.icons-list{
+    margin-top: 18px;
 }
 
 
@@ -419,15 +442,31 @@ letter-spacing: 0.42px;
     border-radius: 22px;
 
 }
-
+.icon{
+    color: #AFB1B8;
+}
 
 .icons-list .icon:hover,
 .icons-list .icon:focus {
-  color: #2196F3;
+  background-color: #2196F3;
+  color: #FFF;
 }
 
 
 .icons-list .icon svg{
     width: 20px;
     height: 20px;
+}
+.title-customers{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.title-customers{
+    margin-top: 94px;
 }
